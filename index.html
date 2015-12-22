@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Ludum Dare 34</title>
+    <style>
+    /* a style sheet needs to be present for cursor hiding and custom cursors to work. */
+    body {
+        background-color: rgb(25,25,25);
+    }
+    </style>
+  </head>
+  <body>
+    <div style="width:640px;margin-left:auto;margin-right:auto;margin-top:25px;">
+    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="480px" width="640px"></canvas>
+    </div>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/Build.data",
+    codeUrl: "Release/Build.js",
+    memUrl: "Release/Build.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+  </body>
+</html>
