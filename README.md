@@ -8,5 +8,7 @@ This was my second (submitted) Ludum Dare game, and the first game I've complete
 The majority of the time was spent first implementing the "DSL" for scripting the story, and then using it to write the story itself.
 Unfortunately I did not have time to add/create music. 
 
+**License Note**: I use, and have included the font [Runescape UF](http://www.dafont.com/runescape-uf.font) which is licensed by its creator under Public Domain. The license in this repository does not apply to the included font file.
+
 ###Known Bugs
 - Game crashes when restarting from the credits screen
